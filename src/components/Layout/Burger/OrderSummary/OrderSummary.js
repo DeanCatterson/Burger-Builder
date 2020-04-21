@@ -8,7 +8,7 @@ class OrderSummary extends Component {
     //This can be converted back to a functional component
     //Does not have to be a class based component
     
-    componentWillUpdate() {
+    UNSAFE_componentWillUpdate() {
         console.log('[OrderSummary] WillUpdate')
     }
 
