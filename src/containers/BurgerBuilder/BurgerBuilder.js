@@ -10,6 +10,7 @@ const INGREDIENT_PRICES = {
     salad: 0.5,
     cheese: 0.3,
     bacon: 0.7,
+    chicken: 1.1,
     meat: 1.5
 }
 
@@ -19,6 +20,7 @@ class BurgerBuilder extends Component {
             salad: 0,
             bacon: 0,
             cheese: 0,
+            chicken: 0,
             meat: 0
         },
         totalPrice: 4,
